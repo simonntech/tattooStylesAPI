@@ -1,6 +1,6 @@
 import fastify from "fastify";
 import fastifyCors from "@fastify/cors";
-import { stylesRoutes } from "./controllers/styles-controller";
+import { styleRoutesName, stylesRoutes } from "./controllers/styles-controller";
 
 const server = fastify();
 
@@ -11,6 +11,8 @@ server.register(fastifyCors, {
 
 // é necessário registrar a rota do CONTROLLER
 server.register(stylesRoutes);
+
+server.register(styleRoutesName);
 
 server.listen({ port: 8000}, () => {
     console.log("API funcionando...")

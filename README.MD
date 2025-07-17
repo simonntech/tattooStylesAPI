@@ -1,6 +1,8 @@
 # Tattoo Styles API
+<img src="assets/.github/capa.jpg" alt="Banner do Projeto" width="300"/>
 
 *Estudo prático de criação de uma API REST funcional para alimentar um front‑end com os estilos de tatuagem mais comuns do mercado.*
+*Imagens dos estilos já inclusas na pasta assets*
 
 
 ---
@@ -44,10 +46,10 @@ Perfeito para fins de estudo e como boilerplate para projetos pessoais.
 
 ## ✨ Endpoints
 
-* `GET /styles`
+* `GET /estilos`
   Lista os estilos de tatuagens mais comuns.
 
-* `GET /styles/:id`
+* `GET /estilos/:styleName`
   Detalhes de um estilo específico (ex.: 'realismo', 'old school').
 
 *(Outros endpoints podem ser adicionados conforme evolução do projeto.)*
