@@ -14,6 +14,8 @@ server.register(stylesRoutes);
 
 server.register(styleRoutesName);
 
-server.listen({ port: 8000}, () => {
-    console.log("API funcionando...")
+const PORT = 3000;
+
+server.listen(PORT, () => {
+    console.log(`Server on PORT ${PORT}`)
 });
