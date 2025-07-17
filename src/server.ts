@@ -16,6 +16,6 @@ server.register(styleRoutesName);
 
 const PORT = 3000;
 
-server.listen(PORT, () => {
+server.listen({port: PORT}, () => {
     console.log(`Server on PORT ${PORT}`)
 });
