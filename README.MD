@@ -57,35 +57,6 @@ Perfeito para fins de estudo e como boilerplate para projetos pessoais.
 
 ---
 
-## 🧪 Como Executar
-
-1. Clonar o repositório
-
-   ```bash
-   git clone https://github.com/simonntech/tattooStylesAPI.git
-   ```
-
-2. Instalar dependências
-
-   ```bash
-   npm install
-   ```
-
-3. Executar em modo desenvolvimento
-
-   ```bash
-   npm run dev
-   ```
-
-4. Build para produção
-
-   ```bash
-   npm run build
-   npm start
-   ```
-
----
-
 ## 🎯 Objetivo do Estudo
 
 * Praticar arquitetura de uma **API REST** leve e tipada;
