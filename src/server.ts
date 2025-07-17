@@ -16,6 +16,13 @@ server.register(styleRoutesName);
 
 const PORT = 3000;
 
-server.listen({port: PORT}, () => {
-    console.log(`Server on PORT ${PORT}`)
+server.listen({
+    port: PORT,
+    host: "0.0.0.0"
+}, (err, address) => {
+    if (err) {
+        console.error(err);
+        process.exit(1);
+    }
+    console.log(`Server on PORT ${address}`)
 });
