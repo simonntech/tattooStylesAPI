@@ -2,8 +2,7 @@
 <img src="assets/.github/capa.jpg" alt="Banner do Projeto" width="300"/>
 
 *Estudo prático de criação de uma API REST funcional para alimentar um front‑end com os estilos de tatuagem mais comuns do mercado.*
-*Imagens dos estilos já inclusas na pasta assets*
-
+*Imagens de exemplos de estilos em outro repositório apenas para armazenamento das imagens, qualquer pessoa pode ter acesso às imagens*
 
 ---
 
@@ -34,10 +33,9 @@ Perfeito para fins de estudo e como boilerplate para projetos pessoais.
 ```
 /
 ├── src/
-│   ├── routes/         # Definição de rotas (GET, POST ...)
 │   ├── controllers/    # Lógica de resposta da API
-│   ├── services/       # Business logic (obtém dados de estilos)
-│   └── models/         # Tipagens e interfaces TypeScript
+│   └── data/           # Array com os estilos
+├── server.ts           # Arquivo Servidor Principal em Typescript
 ├── tsconfig.json       # Config TypeScript
 └── package.json        # Dependências e scripts
 ```
@@ -90,17 +88,6 @@ Perfeito para fins de estudo e como boilerplate para projetos pessoais.
 * Praticar arquitetura de uma **API REST** leve e tipada;
 * Explorar o uso de **Fastify** e **TypeScript** em conjunto;
 * Aprimorar habilidades de consumos de dados via front‑end (frameworks como React/Vue/etc.).
-
----
-
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](LICENSE).
-
----
-
-*Feito com ❤️ por SimonnTech*
 
 ---
 
